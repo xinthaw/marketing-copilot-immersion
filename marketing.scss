@@ -1,0 +1,31 @@
+// Marketing color scheme — purple primary + orange accent
+// Override Just the Docs default colors
+
+$link-color:                  #7c3aed;   // vibrant purple
+$btn-primary-color:           #7c3aed;
+$base-button-color:           #f97316;   // orange
+$body-heading-color:          #1e1b4b;   // deep indigo
+$body-text-color:             #1f2937;
+$body-background-color:       #ffffff;
+
+// Sidebar
+$sidebar-color:               #f5f3ff;   // soft purple tint
+$nav-child-link-color:        #4c1d95;
+
+// Borders & code
+$border-color:                #e9d5ff;
+$code-background-color:       #faf5ff;
+
+// Search
+$search-background-color:     #ffffff;
+$search-result-preview-color: #4b5563;
+
+// Labels (badges) — used by .label-* classes
+$blue-100:   #ede9fe;
+$blue-200:   #7c3aed;   // purple replaces default blue
+$green-100:  #fff7ed;
+$green-200:  #ea580c;   // orange replaces default green
+$purple-100: #fce7f3;
+$purple-200: #db2777;   // pink for variety
+$yellow-100: #fef3c7;
+$yellow-200: #b45309;

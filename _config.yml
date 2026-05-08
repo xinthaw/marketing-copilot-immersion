@@ -1,0 +1,56 @@
+title: M365 Copilot Marketing Immersion
+description: Hands-on Copilot scenarios for the Marketing team — from daily tasks to your first AI agent.
+remote_theme: just-the-docs/just-the-docs
+
+# ---- URLs (already set for your repo) ----
+url: "https://xinthaw.github.io"
+baseurl: "/marketing-copilot-immersion"
+
+# ---- Custom color scheme (purple + orange) ----
+color_scheme: marketing
+
+# ---- Search ----
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-/]+/
+heading_anchors: true
+
+# ---- Top-right link ----
+aux_links:
+  "View on GitHub":
+    - "https://github.com/xinthaw/marketing-copilot-immersion"
+aux_links_new_tab: true
+
+# ---- Footer ----
+footer_content: 'Copyright &copy; 2026 Marketing Team. Built with <a href="https://just-the-docs.com">Just the Docs</a>.'
+
+# ---- Callouts (colored note/warning boxes you can use in pages) ----
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: red
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
