@@ -7,7 +7,7 @@ url: "https://xinthaw.github.io"
 baseurl: "/marketing-copilot-immersion"
 
 # ---- Custom color scheme (purple + orange) ----
-color_scheme: marketing
+color_scheme: light
 
 # ---- Search ----
 search_enabled: true
